@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Unorder list (UL tags) and 0rder list (OL tags)</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.menu{
+			background: blue;
+			width: 100%;
+		}
+		.a li{
+			/*list-style: none; (<ul type="none"> </ul> dono ek hi kam karte ha unorder list ke symbol ko hatane ka)*/
+			/*display: inline; (display: inline; tag list ko ek line (row) me sift kar dete ha or list symbol ko hata dete ha )*/
+			display: inline-block; /* display: inline-block; tag lagane ke bad hi width ko change kar sakte ha or display:inline; 
+			                          tag ko hatana parega tab hi ja ke width function kam karega */
+			/*background: red;*/
+			width: 131px;
+			height: 60px;
+			text-align: center;
+			color: white;
+			font-weight: bold;
+			font-family: serif;
+			
+		line-height: 60px;   /*yah word ko middle me llane ka kam karta ha or px height ke barabar hogi
+		                       to middle me aayega word*/
+		}
+		.active
+			background: black;
+		
+		.b{
+		  text-decoration: none; /*ye anchar tag <a></a> ke karan word ke niche jo line laga hota 
+		                          (underline) usse hata deta ha*/
+		  color: white;          /*anchar tag ka by default color blue hota ha*/
+		  }
+		ul li:hover{
+			background: black;
+			color: red;
+		}
+	</style>
+</head>
+<body>
+  <div class="menu">
+	<UL class="a" >                                                   <!--UL means Unorder list tags-->
+		<LI class="active"><a href="" class="b"> Home</a></LI>        <!--LI means list tags-->
+		<LI>About</LI>
+		<LI>Blog</LI>
+		<LI>ITM</LI>
+		<LI>MITS</LI>        
+	</UL>
+  </div>
+	<UL type="circle" >                     
+		<LI><img src="image/bag.jpeg"> Home</LI>        
+		<LI>About</LI>
+		<LI>Blog</LI>
+		<LI>ITM</LI>
+		<LI>MITS</LI>        
+	</UL>
+	<OL>                     <!--UL means order list tags-->
+		<LI>Home</LI>  
+		<LI>About</LI>
+		<LI>Blog</LI>
+		<LI>ITM</LI>
+		<LI>MITS</LI>        
+	</OL>
+	<OL type="#" >                     
+		<LI>Home</LI>  
+		<LI>About</LI>
+		<LI>Blog</LI>
+		<LI>ITM</LI>
+		<LI>MITS</LI>        
+	</OL>
+
+</body>
+</html>

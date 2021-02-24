@@ -1,0 +1,50 @@
+*{
+			margin: 0;
+			padding: 0;
+		}
+		.navbar{
+			background: #1ebea5;
+			width: 100%;
+			height: 90px;
+			font-family: monospace;
+		}
+		.image{
+			width: 118px;
+            height: 30px;
+            margin-left: 220px;
+            margin-top: 25px;
+		}
+		.menu{
+			margin-left: 530px;
+			margin-top: -25px;
+			font-family: sans-serif;
+		}
+		.menua{
+			color: white;
+			font-size: 20px;
+			text-decoration: none;
+			margin: 0px 30px 0px 0px;
+			padding: 2px 20px 0px 0px;
+		}
+		
+		.f{
+            font-size: 13px;
+		}
+		.g{
+			margin: 210px 0px 0px 340px;
+            color: #1c1e21;    
+            font-size: 33px;
+            font-weight: 300;
+            font-family: system-ui;
+		}
+		
+		.i{
+			margin-left: 340px;
+			font-family: system-ui;
+			font-weight: 300;
+		}
+		.j{
+			margin: -295px 0px 0px 800px;
+			width: 318px;
+			height: 599px;
+		}
